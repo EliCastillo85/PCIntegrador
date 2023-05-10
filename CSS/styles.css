@@ -1,0 +1,193 @@
+
+. {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    --menu-color: rgba(255, 255, 255, 55);
+}
+
+/*NAVBAR FROM BOOTSTRAP */
+
+.navbar-expand-lg.navbar-dark {
+    background-color: var(--gray-700);
+}
+
+.navbar-brand-h1 {
+    color: var(--gray-200);
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar img {
+    width: 80px;
+    margin-right: 1rem;
+    padding: 1rem 0;
+}
+
+.navbar .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.nuvbar .nuvbar-nav {
+    text-align: center;
+}
+
+
+.navbar .navbar-nav a:last-child {
+    color: #009149;
+
+}
+
+/*showcase*/
+.showcase {
+    background-image: url(../img/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--gray-200);
+}
+
+.showcase .shodow {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+/*me esta dando problemas*/
+.showcase .container-flex {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+.showcase .content {
+    width: 50%;
+    margin-bottom: 20vh;
+    text-align:right;
+    margin-top: 20rem;
+}
+
+.showcase .buttonarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.showcase .buttonarea a {
+    color: var(--gray-200);
+    text-decoration: none;
+}
+
+.showcase .btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+.showcase .btn-transparent {
+    border: 1px solid var(--gray-200);
+}
+
+
+.showcase .btn-transparent:hover {
+    background-color: rgba(255, 255, 255, 55);
+    color: var(--gray-900);
+    border: 1px solid rgba(255, 255, 255, 55);
+    transition: 0.5s;
+}
+
+.showcase .btn-solid {
+    background-color: green;
+    border: 1px solid green;
+}
+
+.showcase .btn-solid:hover {
+    background-color: rgba(0, 128, 0, 0.5);
+    border: 1px rgba(0, 128, 0, 0.5);
+}
+
+
+/*oradores*/
+.titulo-gral {
+    text-align: center;
+}
+
+.titulo-gral h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+
+/*ubicacion */
+
+.bg-aside1 {
+    background-color: var(--gray-800);
+    color: var(--gray-200);
+    padding: 2rem; 
+       
+}
+
+.mb-4 .col-md.text-light.bg-aside1{
+    margin: 0rem;
+    margin-left: 0.1rem;
+    padding: 1.25rem 1.75rem; 
+    font-size: 14.5px;
+}
+
+/*Formulario*/
+
+.d-grid {
+    background-color: rgba(106, 221, 34, 0.714);
+    padding: 0rem 1.2rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+
+
+/*footer*/
+
+
+.container .nav.justify-content-center.justify-content-lg-between.align-items-center {
+    width: 100%;
+    background-color: rgba(7, 66, 110, 0.762);
+    margin: 0rem;
+    
+
+}
+
+.nav-item .nav-link {
+    color: var(--gray-200);
+    padding: 1.25rem 1.75rem;
+    line-height: 1;
+    border-radius: 0rem;
+    transition: box-shadow 0.15s ease-in-out;
+    margin-bottom: 25px;
+    font-size: 14px;
+    align-items: center;
+    margin: 0rem;
+    padding: 2rem;
+    }
